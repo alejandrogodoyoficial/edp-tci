@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ -d ./a ];
 then
 rm -r a

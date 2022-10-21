@@ -1,4 +1,4 @@
-#bin/bash
+#!/bin/bash
 
 #Se crea los grupos comision1 y comision2
 groupadd comision1
