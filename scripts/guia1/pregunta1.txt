@@ -1,0 +1,3 @@
+Para obtener el PID y el comando asociado al proceso que ocupa mas espacio en memoria, utilizaria "ps aux | sort -nk +4 | tail -1" para ordenar los resultados por el uso de memoria.
+Con "ps aux" se listan todos los procesos, con "sort" se ordenan y con tail se muestran solo la ultima linea de salida.
+Para matar el proceso sin arriesgarse a que los procesos hijos ocupando lugar en memoria, se puede utilizar el comando "kill" juanto a la opcion -s("--signal") mas "sigkill. Todo junto quedaria "kill -s SIGKILL PID.

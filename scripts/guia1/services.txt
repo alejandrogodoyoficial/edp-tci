@@ -1,0 +1,149 @@
+  UNIT                                                                         LOAD      ACTIVE   SUB     DESCRIPTION                                                                     
+  accounts-daemon.service                                                      loaded    active   running Accounts Service                                                                
+  acpid.service                                                                loaded    active   running ACPI event daemon                                                               
+  alsa-restore.service                                                         loaded    active   exited  Save/Restore Sound Card State                                                   
+  alsa-state.service                                                           loaded    inactive dead    Manage Sound Card State (restore and store)                                     
+  anacron.service                                                              loaded    inactive dead    Run anacron jobs                                                                
+  apparmor.service                                                             loaded    active   exited  Load AppArmor profiles                                                          
+  apport-autoreport.service                                                    loaded    inactive dead    Process error reports when automatic reporting is enabled                       
+  apport.service                                                               loaded    active   exited  LSB: automatic crash report generation                                          
+  apt-daily-upgrade.service                                                    loaded    inactive dead    Daily apt upgrade and clean activities                                          
+  apt-daily.service                                                            loaded    inactive dead    Daily apt download activities                                                   
+  atd.service                                                                  loaded    active   running Deferred execution scheduler                                                    
+● auditd.service                                                               not-found inactive dead    auditd.service                                                                  
+  avahi-daemon.service                                                         loaded    active   running Avahi mDNS/DNS-SD Stack                                                         
+  clean-mount-point@media-alejandro-Ubuntu\x2020.04.4\x20LTS\x20amd641.service loaded    active   exited  Clean the /media/alejandro/Ubuntu 20.04.4 LTS amd641 mount point                
+● cloud-config.service                                                         not-found inactive dead    cloud-config.service                                                            
+● cloud-init-local.service                                                     not-found inactive dead    cloud-init-local.service                                                        
+  colord.service                                                               loaded    active   running Manage, Install and Generate Color Profiles                                     
+● connman.service                                                              not-found inactive dead    connman.service                                                                 
+● console-screen.service                                                       not-found inactive dead    console-screen.service                                                          
+  console-setup.service                                                        loaded    active   exited  Set console font and keymap                                                     
+  containerd.service                                                           loaded    active   running containerd container runtime                                                    
+  cron.service                                                                 loaded    active   running Regular background program processing daemon                                    
+  cups-browsed.service                                                         loaded    active   running Make remote CUPS printers available locally                                     
+  cups.service                                                                 loaded    active   running CUPS Scheduler                                                                  
+  dbus.service                                                                 loaded    active   running D-Bus System Message Bus                                                        
+  dmesg.service                                                                loaded    inactive dead    Save initial kernel messages after boot                                         
+  docker.service                                                               loaded    active   running Docker Application Container Engine                                             
+  e2scrub_all.service                                                          loaded    inactive dead    Online ext4 Metadata Check for All Filesystems                                  
+  e2scrub_reap.service                                                         loaded    inactive dead    Remove Stale Online ext4 Metadata Check Snapshots                               
+  emergency.service                                                            loaded    inactive dead    Emergency Shell                                                                 
+● firewalld.service                                                            not-found inactive dead    firewalld.service                                                               
+  fstrim.service                                                               loaded    inactive dead    Discard unused blocks on filesystems from /etc/fstab                            
+  fwupd-refresh.service                                                        loaded    inactive dead    Refresh fwupd metadata and update motd                                          
+  gdm.service                                                                  loaded    active   running GNOME Display Manager                                                           
+  getty-static.service                                                         loaded    inactive dead    getty on tty2-tty6 if dbus and logind are not available                         
+  getty@tty1.service                                                           loaded    inactive dead    Getty on tty1                                                                   
+  gpu-manager.service                                                          loaded    inactive dead    Detect the available GPUs and deal with any system changes                      
+  grub-common.service                                                          loaded    inactive dead    Record successful boot for GRUB                                                 
+  grub-initrd-fallback.service                                                 loaded    inactive dead    GRUB failed boot detection                                                      
+  irqbalance.service                                                           loaded    active   running irqbalance daemon                                                               
+● kbd.service                                                                  not-found inactive dead    kbd.service                                                                     
+  kerneloops.service                                                           loaded    active   running Tool to automatically collect and submit kernel crash signatures                
+  keyboard-setup.service                                                       loaded    active   exited  Set the console keyboard layout                                                 
+  kmod-static-nodes.service                                                    loaded    active   exited  Create list of static device nodes for the current kernel                       
+  logrotate.service                                                            loaded    inactive dead    Rotate log files                                                                
+● lxc.service                                                                  not-found inactive dead    lxc.service                                                                     
+  man-db.service                                                               loaded    inactive dead    Daily man-db regeneration                                                       
+  ModemManager.service                                                         loaded    active   running Modem Manager                                                                   
+  modprobe@chromeos_pstore.service                                             loaded    inactive dead    Load Kernel Module chromeos_pstore                                              
+  modprobe@drm.service                                                         loaded    inactive dead    Load Kernel Module drm                                                          
+  modprobe@efi_pstore.service                                                  loaded    inactive dead    Load Kernel Module efi_pstore                                                   
+  modprobe@pstore_blk.service                                                  loaded    inactive dead    Load Kernel Module pstore_blk                                                   
+  modprobe@pstore_zone.service                                                 loaded    inactive dead    Load Kernel Module pstore_zone                                                  
+  modprobe@ramoops.service                                                     loaded    inactive dead    Load Kernel Module ramoops                                                      
+  motd-news.service                                                            loaded    inactive dead    Message of the Day                                                              
+  netplan-ovs-cleanup.service                                                  loaded    inactive dead    OpenVSwitch configuration for cleanup                                           
+  networkd-dispatcher.service                                                  loaded    active   running Dispatcher daemon for systemd-networkd                                          
+  NetworkManager-wait-online.service                                           loaded    active   exited  Network Manager Wait Online                                                     
+  NetworkManager.service                                                       loaded    active   running Network Manager                                                                 
+● oem-config.service                                                           not-found inactive dead    oem-config.service                                                              
+  ondemand.service                                                             loaded    inactive dead    Set the CPU Frequency Scaling governor                                          
+  open-vm-tools.service                                                        loaded    inactive dead    Service for virtual machines hosted on VMware                                   
+  openvpn.service                                                              loaded    active   exited  OpenVPN service                                                                 
+● ovsdb-server.service                                                         not-found inactive dead    ovsdb-server.service                                                            
+  plymouth-quit-wait.service                                                   loaded    inactive dead    Hold until boot process finishes up                                             
+  plymouth-quit.service                                                        loaded    inactive dead    Terminate Plymouth Boot Screen                                                  
+  plymouth-read-write.service                                                  loaded    inactive dead    Tell Plymouth To Write Out Runtime Data                                         
+  plymouth-start.service                                                       loaded    inactive dead    Show Plymouth Boot Screen                                                       
+  polkit.service                                                               loaded    active   running Authorization Manager                                                           
+  pppd-dns.service                                                             loaded    inactive dead    Restore /etc/resolv.conf if the system crashed before the ppp link was shut down
+  rc-local.service                                                             loaded    inactive dead    /etc/rc.local Compatibility                                                     
+  rescue.service                                                               loaded    inactive dead    Rescue Shell                                                                    
+  rsync.service                                                                loaded    inactive dead    fast remote file copy program daemon                                            
+  rsyslog.service                                                              loaded    active   running System Logging Service                                                          
+  rtkit-daemon.service                                                         loaded    active   running RealtimeKit Scheduling Policy Service                                           
+  secureboot-db.service                                                        loaded    inactive dead    Secure Boot updates for DB and DBX                                              
+  setvtrgb.service                                                             loaded    active   exited  Set console scheme                                                              
+  snapd.aa-prompt-listener.service                                             loaded    inactive dead    Userspace listener for prompt events                                            
+  snapd.apparmor.service                                                       loaded    active   exited  Load AppArmor profiles managed internally by snapd                              
+  snapd.autoimport.service                                                     loaded    inactive dead    Auto import assertions from block devices                                       
+  snapd.core-fixup.service                                                     loaded    inactive dead    Automatically repair incorrect owner/permissions on core devices                
+  snapd.failure.service                                                        loaded    inactive dead    Failure handling of the snapd snap                                              
+  snapd.recovery-chooser-trigger.service                                       loaded    inactive dead    Wait for the Ubuntu Core chooser trigger                                        
+  snapd.seeded.service                                                         loaded    active   exited  Wait until snapd is fully seeded                                                
+  snapd.service                                                                loaded    active   running Snap Daemon                                                                     
+  snapd.snap-repair.service                                                    loaded    inactive dead    Automatically fetch and run repair assertions                                   
+● sssd.service                                                                 not-found inactive dead    sssd.service                                                                    
+  switcheroo-control.service                                                   loaded    active   running Switcheroo Control Proxy service                                                
+  systemd-ask-password-console.service                                         loaded    inactive dead    Dispatch Password Requests to Console                                           
+  systemd-ask-password-plymouth.service                                        loaded    inactive dead    Forward Password Requests to Plymouth                                           
+  systemd-ask-password-wall.service                                            loaded    inactive dead    Forward Password Requests to Wall                                               
+  systemd-binfmt.service                                                       loaded    inactive dead    Set Up Additional Binary Formats                                                
+  systemd-boot-system-token.service                                            loaded    inactive dead    Store a System Token in an EFI Variable                                         
+  systemd-fsck-root.service                                                    loaded    inactive dead    File System Check on Root Device                                                
+  systemd-fsck@dev-disk-by\x2duuid-D4D7\x2d685A.service                        loaded    active   exited  File System Check on /dev/disk/by-uuid/D4D7-685A                                
+  systemd-fsckd.service                                                        loaded    inactive dead    File System Check Daemon to report status                                       
+  systemd-hwdb-update.service                                                  loaded    inactive dead    Rebuild Hardware Database                                                       
+  systemd-initctl.service                                                      loaded    inactive dead    initctl Compatibility Daemon                                                    
+  systemd-journal-flush.service                                                loaded    active   exited  Flush Journal to Persistent Storage                                             
+  systemd-journald.service                                                     loaded    active   running Journal Service                                                                 
+  systemd-logind.service                                                       loaded    active   running Login Service                                                                   
+  systemd-machine-id-commit.service                                            loaded    inactive dead    Commit a transient machine-id on disk                                           
+  systemd-modules-load.service                                                 loaded    active   exited  Load Kernel Modules                                                             
+  systemd-networkd.service                                                     loaded    inactive dead    Network Service                                                                 
+  systemd-pstore.service                                                       loaded    inactive dead    Platform Persistent Storage Archival                                            
+  systemd-quotacheck.service                                                   loaded    inactive dead    File System Quota Check                                                         
+  systemd-random-seed.service                                                  loaded    active   exited  Load/Save Random Seed                                                           
+  systemd-remount-fs.service                                                   loaded    active   exited  Remount Root and Kernel File Systems                                            
+  systemd-resolved.service                                                     loaded    active   running Network Name Resolution                                                         
+  systemd-rfkill.service                                                       loaded    inactive dead    Load/Save RF Kill Switch Status                                                 
+  systemd-sysctl.service                                                       loaded    active   exited  Apply Kernel Variables                                                          
+  systemd-sysusers.service                                                     loaded    active   exited  Create System Users                                                             
+  systemd-timesyncd.service                                                    loaded    active   running Network Time Synchronization                                                    
+  systemd-tmpfiles-clean.service                                               loaded    inactive dead    Cleanup of Temporary Directories                                                
+  systemd-tmpfiles-setup-dev.service                                           loaded    active   exited  Create Static Device Nodes in /dev                                              
+  systemd-tmpfiles-setup.service                                               loaded    active   exited  Create Volatile Files and Directories                                           
+  systemd-udev-trigger.service                                                 loaded    active   exited  udev Coldplug all Devices                                                       
+  systemd-udevd.service                                                        loaded    active   running udev Kernel Device Manager                                                      
+● systemd-update-done.service                                                  not-found inactive dead    systemd-update-done.service                                                     
+  systemd-update-utmp-runlevel.service                                         loaded    inactive dead    Update UTMP about System Runlevel Changes                                       
+  systemd-update-utmp.service                                                  loaded    active   exited  Update UTMP about System Boot/Shutdown                                          
+  systemd-user-sessions.service                                                loaded    active   exited  Permit User Sessions                                                            
+● systemd-vconsole-setup.service                                               not-found inactive dead    systemd-vconsole-setup.service                                                  
+  thermald.service                                                             loaded    inactive dead    Thermal Daemon Service                                                          
+● ua-auto-attach.service                                                       not-found inactive dead    ua-auto-attach.service                                                          
+  ua-reboot-cmds.service                                                       loaded    inactive dead    Ubuntu Advantage reboot cmds                                                    
+  ua-timer.service                                                             loaded    inactive dead    Ubuntu Advantage Timer for running repeated jobs                                
+● ubuntu-advantage-cloud-id-shim.service                                       not-found inactive dead    ubuntu-advantage-cloud-id-shim.service                                          
+  ubuntu-advantage.service                                                     loaded    inactive dead    Ubuntu Pro Background Auto Attach                                               
+  ubuntu-fan.service                                                           loaded    active   exited  Ubuntu FAN network setup                                                        
+  udisks2.service                                                              loaded    active   running Disk Manager                                                                    
+  ufw.service                                                                  loaded    active   exited  Uncomplicated firewall                                                          
+  unattended-upgrades.service                                                  loaded    active   running Unattended Upgrades Shutdown                                                    
+  upower.service                                                               loaded    active   running Daemon for power management                                                     
+  user-runtime-dir@1000.service                                                loaded    active   exited  User Runtime Directory /run/user/1000                                           
+  user@1000.service                                                            loaded    active   running User Manager for UID 1000                                                       
+  uuidd.service                                                                loaded    inactive dead    Daemon for generating UUIDs                                                     
+  vgauth.service                                                               loaded    inactive dead    Authentication service for virtual machines hosted on VMware                    
+  whoopsie.service                                                             loaded    active   running crash report submission daemon                                                  
+  wpa_supplicant.service                                                       loaded    active   running WPA supplicant                                                                  
+● zfs-mount.service                                                            not-found inactive dead    zfs-mount.service                                                               
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+141 loaded units listed.
+To show all installed unit files use 'systemctl list-unit-files'.
